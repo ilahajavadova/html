@@ -1,0 +1,52 @@
+* {
+    /* font-family: "Madimi One"; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    background-image: linear-gradient(to right, orange, red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    background-image: linear-gradient(to right, orange, red);
+    border-radius: 30px;
+    color: white;
+    border: none;
+    padding: 16px;
+    width: 140px;
+    margin-top: 16px;
+  }
+  .contoiner {
+    position: relative;
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .lorem {
+    width: 300px;
+  }
+  p {
+    color: gray;
+  }
+  h1 {
+    margin: 16px 0 16px 0;
+  }
+  .bosh {
+    background-image: linear-gradient(to right, orange, red);
+    width: 240px;
+    height: 240px;
+    border: 2px green;
+    border-radius: 16px;
+    position: absolute;
+    top: 80px;
+    right: 500px;
+    box-shadow: 5px 5px 5px orange;
+  }
