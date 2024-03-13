@@ -1,0 +1,55 @@
+/* Not relevant to the lesson. Just setting up a parent div with a max width. */
+#ost-container {
+    max-width: 870px;
+    margin: 0 auto;
+  }
+  /* Floating to make the blocks stack side-by-side. */
+  .fleft {
+    float: left;
+    text-align: left;
+  }
+  .w100 {
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    font-size: 70px;
+    background: #ed8034;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+  }
+  .w50 {
+    width: calc(50% - 10px);
+    min-height: 70px;
+    font-size: 14px;
+    background: #feb123;
+    padding: 5px;
+  }
+  .w25 {
+    width: calc(25% - 23px * 2);
+    min-height: 100px;
+    font-size: 12px;
+    color: #ffffff;
+    background: #2184cd;
+    margin: 20px 10px;
+    padding: 10px;
+    border: 3px solid #000;
+  }
+  /* Some adjustments needed for mobile browsing. */
+  @media screen and (max-width: 767px) {
+    .w100 {
+      font-size: 40px;
+    }
+    .w50 {
+      width: calc(100% - 10px);
+      min-height: auto;
+    }
+    .w25 {
+      width: calc(100% - 23px * 2);
+      min-height: auto;
+      margin: 10px;
+    }
+    /* This will keep the original 20px spacing between w50 and w25 for just the first w25 div. */
+    #ost-container > :nth-child(4) {
+      margin-top: 20px;
+    }
+  }
