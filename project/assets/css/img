@@ -1,0 +1,116 @@
+.card {
+  border: 2px solid blue;
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+}
+img {
+  width: 100%;
+}
+.basliq-1 {
+  color: blue;
+}
+.card-1 {
+  border: 2px solid blue;
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+}
+img {
+  width: 100%;
+}
+.basliq-1 {
+  color: blue;
+}
+.card-2 {
+  border: 2px solid blue;
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  left: 235px;
+  bottom: 880px;
+}
+img {
+  width: 100%;
+}
+.basliq-1 {
+  color: blue;
+}
+.card-3 {
+  border: 2px solid blue;
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  left: 235px;
+  bottom: 880px;
+}
+img {
+  width: 100%;
+}
+.basliq-1 {
+  color: blue;
+}
+.card-4 {
+  border: 2px solid blue;
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  left: 470px;
+  bottom: 1760px;
+}
+img {
+  width: 100%;
+}
+.basliq-1 {
+  color: blue;
+}
+.card-5 {
+  border: 2px solid blue;
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  left: 470px;
+  bottom: 1760px;
+}
+img {
+  width: 100%;
+}
+.basliq-1 {
+  color: blue;
+}
+.card-6 {
+  border: 2px solid blue;
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  left: 705px;
+  bottom: 2640px;
+}
+img {
+  width: 100%;
+}
+.basliq-1 {
+  color: blue;
+}
+.card-7 {
+  border: 2px solid blue;
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  left: 705px;
+  bottom: 2640px;
+}
+img {
+  width: 100%;
+}
+.basliq-1 {
+  color: blue;
+}
