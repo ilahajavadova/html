@@ -1,0 +1,58 @@
+.container {
+    max-width: 50%;
+    height: 70vh;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+    background-color: black;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        " assite blog-1 blog 1"
+        "assite blog-2 blog-2"
+        "assite blog-3 blog-3"
+        "footer footer footer ";
+
+}
+
+/* .container{
+    /* max-width: 100%;
+    height: 800px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid; */
+
+.header {
+    background-color: violet;
+    color: white;
+    grid-area: 1/ 1/ 1 / span 3;
+}
+
+.blog_1 {
+    background-color: blue;
+    color: white;
+    grid-area: 2 / 1/ span 2/ span 1;
+}
+
+.blog_2 {
+    background-color: yellow;
+    color: white;
+    grid-area: 2/ 2/span 1/ span 2;
+}
+
+.blog_3 {
+    background-color: brown;
+    color: white;
+}
+
+.blog_4 {
+    background-color: orangered;
+    color: white;
+
+}
+
+.footer {
+    grid-area: 4 / 1 / span 2/ span 3;
+    background-color: turquoise;
+}
